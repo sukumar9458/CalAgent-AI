@@ -1,0 +1,35 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.local
+
+# Next.js build outputs
+frontend/.next/
+frontend/out/
+
+# Backend build outputs
+backend/dist/
+backend/build/
+
+# Mastra Local DB files
+backend/mastra.db*
+*.db
+*.sqlite
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Typescript build info
+*.tsbuildinfo
